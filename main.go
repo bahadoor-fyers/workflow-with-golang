@@ -1,9 +1,9 @@
 package main
 
-import "fmt
+import "fmt"
 
 func DummyFunc(num int)int {
-	
+	return num * 100
 }
 
 func main() {
