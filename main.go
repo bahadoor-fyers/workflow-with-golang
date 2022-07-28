@@ -7,5 +7,5 @@ func DummyFunc(num int)int {
 }
 
 func main() {
-	fmt.Println("test")
+	fmt.Println("testing")
 }
