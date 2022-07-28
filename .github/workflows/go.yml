@@ -30,6 +30,6 @@ jobs:
       with:
          projectBaseDir: .
          args: >
-          -Dsonar.organization=bahadoor-fyers
-          -Dsonar.projectKey=bahadoor-fyers_workflow-with-golang
+          -Dsonar.organization=$SONAR_ORG
+          -Dsonar.projectKey=$SONAR_PROJECT_KEY
 
